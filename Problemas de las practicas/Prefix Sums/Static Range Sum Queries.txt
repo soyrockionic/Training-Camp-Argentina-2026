@@ -1,0 +1,38 @@
+Static Range Sum Queries => https://cses.fi/problemset/task/1646
+
+Dado un arreglo de n enteros, tu tarea consiste en procesar q consultas de la forma: ¿cual es la suma
+de los valores en el rango [a, b]?
+
+Input
+
+La primera linea de entrada contiene dos enteros, n y q: el numero de valores y de consultas.
+
+La segunda linea contiene n enteros x1, x2, ..., xn: los valores del arreglo.
+
+Finalmente, hay q lineas que describen las consultas. Cada linea contiene dos enteros, a y b: ¿cual es
+la suma de los valores en el rango [a, b]?
+
+Output
+
+Imprima el resultado de cada consulta.
+
+Restricciones
+
+- 1 <= n,q <= 2*10^5
+- 1 <= xi <= 10^9
+- 1 <= a <= b <= n
+
+Ejemplo
+
+Entrada
+8 4
+3 2 4 5 1 1 5 3
+2 4
+5 6
+1 8
+3 3
+Salida
+11
+2
+24
+4

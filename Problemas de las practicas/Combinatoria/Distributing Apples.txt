@@ -1,0 +1,26 @@
+Distributing Apples
+
+https://cses.fi/problemset/task/1716
+
+Hay n niños y m manzanas que se repartiran entre ellos. Tu tarea consiste en contar de cuantas
+formas se puede hacer esto.
+
+Por ejemplo, si n=3 y m=2, hay 6 formas: [0,0,2], [0,1,1], [0,2,0], [1,0,1], [1,1,0] y [2,0,0].
+
+Input
+
+La unica linea de entrada contiene dos numeros enteros, n y m.
+
+Output
+
+Imprime el numero de formas modulo 10^9+7.
+
+Restricciones
+
+1 <= n,m <= 10^6
+
+Ejemplo
+Entrada
+3 2
+Salida
+6

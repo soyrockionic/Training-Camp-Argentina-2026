@@ -1,0 +1,34 @@
+Counting Divisors
+
+https://cses.fi/problemset/task/1713
+
+Dados n numeros enteros, tu tarea consiste en indicar el numero de divisores de cada uno de ellos.
+
+Por ejemplo, si x = 18, la respuesta correcta es 6, ya que sus divisores son 1, 2, 3, 6, 9 y 18.
+
+Input
+
+La primera linea de entrada contiene un numero entero n: la cantidad de enteros.
+
+A continuacion, hay n lineas, cada una con un numero entero x.
+
+Output
+
+Para cada numero entero, imprime el numero de sus divisores.
+
+Restricciones
+
+- 1 <= n <= 10^5
+- 1 <= x <= 10^6
+
+Ejemplo
+
+Entrada
+3
+16
+17
+18
+Salida
+5
+2
+6

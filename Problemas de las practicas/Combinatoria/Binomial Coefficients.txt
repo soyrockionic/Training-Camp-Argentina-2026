@@ -1,0 +1,35 @@
+Binomial Coefficients
+
+https://cses.fi/problemset/task/1079
+
+Tu tarea consiste en calcular n coeficientes binomiales modulo 10^9+7.
+
+Un coeficiente binomial (a  b) puede calcularse utilizando la formula a! / b!(a-b)!. Se asume
+que a y b son numeros enteros y que 0 <= b <= a.
+
+Input
+
+La primera linea de entrada contiene un entero n: el numero de calculos.
+
+A continuacion, hay n lineas, cada una de las cuales contiene dos enteros a y b.
+
+Output
+
+Imprime cada coeficiente binomial modulo 10^9+7.
+
+Restricciones
+
+- 1 <= n <= 10^5
+- 0 <= b <= a <= 10^6
+
+Ejemplo
+
+Entrada
+3
+5 3
+8 1
+9 5
+Salida
+10
+8
+126

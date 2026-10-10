@@ -1,0 +1,28 @@
+Subarray Sums I
+
+https://cses.fi/problemset/task/1660
+
+Dado un arreglo de n enteros positivos, tu tarea es contar el numero de subarreglos cuya suma sea x.
+
+Input
+
+La primera linea de entrada contiene dos enteros, n y x: el tamaño del arreglo y la suma objetivo x.
+
+La siguiente linea contiene n enteros a1, a2,..., an: los elementos del arreglo.
+
+Output
+
+Imprime un numero entero: la cantidad requerida de submatrices.
+
+Restricciones
+
+1 <= n <= 2 * 10^5
+1 <= x, ai <= 10^9
+
+Ejemplo
+
+Entrada
+5 7
+2 4 1 2 7
+Salida
+3

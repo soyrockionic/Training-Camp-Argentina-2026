@@ -1,0 +1,29 @@
+Sum of Two Values
+
+https://cses.fi/problemset/task/1640
+
+Se te proporciona un arreglo de n enteros y tu tarea consiste en encontrar dos valores (en posiciones
+distintas) cuya suma sea x.
+
+Input
+
+La primera linea de entrada contiene dos enteros, n y x: el tamaño del arreglo y la suma objetivo.
+
+La segunda linea contiene n enteros a1, a2, ..., an: los valores del arreglo.
+
+Output
+Imprime dos numeros enteros: las posiciones de los valores. Si hay varias soluciones, puedes imprimir
+cualquiera de ellas. Si no hay soluciones, imprime IMPOSSIBLE.
+
+Restricciones
+
+- 1 <= n <= 2*10^5
+- 1 <= x, ai <= 10^9
+
+Ejmplo
+
+Entrada
+4 8
+2 7 5 1
+salida
+2 4
