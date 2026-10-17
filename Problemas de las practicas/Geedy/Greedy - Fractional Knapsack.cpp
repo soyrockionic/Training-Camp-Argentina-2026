@@ -1,17 +1,15 @@
 /*
 Problema: Fractional Knapsack
 
-Disponemos de una mochila de capacidad W .
+Disponemos de una mochila de capacidad W.
 Cada objeto posee
 - peso
 - valor
-A diferencia del problema clasico,
-podemos partir los objetos.
+A diferencia del problema clasico, podemos partir los objetos.
 
 Objetivo:
 Maximizar el valor total.
 
-Supongamos
 Objeto Peso Valor
     A 10 60
     B 20 100
@@ -21,7 +19,6 @@ Capacidad:
 
 Idea Greedy
 Ordenar por: "valor, peso" de mayor a menor.
-
 Mientras haya espacio:
     - Tomar el objeto completo.
     - Si no entra, tomar unicamente la fraccion restante.
